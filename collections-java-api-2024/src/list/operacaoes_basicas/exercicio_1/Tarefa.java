@@ -1,4 +1,4 @@
-package list.operacaoes_basicas;
+package list.operacaoes_basicas.exercicio_1;
 
 public class Tarefa {
     //atributo
@@ -9,6 +9,11 @@ public class Tarefa {
     }
 
     public String getDescricao() {
+        return descricao;
+    }
+
+    @Override
+    public String toString() {
         return descricao;
     }
 }
